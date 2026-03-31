@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "kicad-autorouter Repository",
+    "packages": [
+        {
+            "name": "kicad-autorouter",
+            "description": "Pure Python autorouter for KiCad with maze-based routing and multi-pass optimization. Derived from Freerouting.",
+            "identifier": "com.github.danwillis-aethl.kicad-autorouter",
+            "type": "plugin",
+            "author": {
+                "name": "Dan Willis",
+                "contact": {
+                    "email": "dan.willis@aethl.com"
+                }
+            },
+            "license": "GPL-3.0",
+            "resources": {
+                "homepage": "https://github.com/danwillis-aethl/kicad-autorouter"
+            },
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "status": "development",
+                    "kicad_version": "9.0",
+                    "download_url": "https://github.com/danwillis-aethl/kicad-autorouter/releases/download/v0.1.0/kicad-autorouter-0.1.0.zip",
+                    "install_size": 200000
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "kicad-autorouter",
+    "description": "Pure Python autorouter for KiCad. Maze-based routing with multi-pass ripup-and-reroute optimization, derived from the Freerouting Java autorouter.",
+    "description_full": "A Python port of the Freerouting autorouter, built as a native KiCad Action Plugin. No Java required.\n\nFeatures:\n- Maze-based A* pathfinding through expansion rooms\n- Multi-pass ripup-and-reroute for optimization\n- 45-degree routing support\n- Post-route trace pull-tight optimization\n- Via reduction optimization\n- Respects KiCad design rules and net classes\n- Progress dialog with cancel support\n\nDerived from Freerouting (https://github.com/freerouting/freerouting), forked as of 2026-03-30.\n\nUsage: After installing, click the Autorouter button in the PCB Editor toolbar, configure settings, and click Route.",
+    "identifier": "com.github.danwillis-aethl.kicad-autorouter",
+    "type": "plugin",
+    "author": {
+        "name": "Dan Willis",
+        "contact": {
+            "email": "dan.willis@aethl.com",
+            "web": "https://github.com/danwillis-aethl/kicad-autorouter"
+        }
+    },
+    "maintainer": {
+        "name": "Dan Willis",
+        "contact": {
+            "email": "dan.willis@aethl.com",
+            "web": "https://github.com/danwillis-aethl/kicad-autorouter"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/danwillis-aethl/kicad-autorouter",
+        "issues": "https://github.com/danwillis-aethl/kicad-autorouter/issues",
+        "repository": "https://github.com/danwillis-aethl/kicad-autorouter.git"
+    },
+    "versions": [
+        {
+            "version": "0.1.0",
+            "status": "development",
+            "kicad_version": "9.0",
+            "kicad_version_max": "10.99"
+        }
+    ]
+}
